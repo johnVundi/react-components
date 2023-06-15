@@ -5,6 +5,7 @@ import Route from './components/Route'
 import ButtonPage from './pages/ButtonPage';
 import Modal from './components/Modal';
 import ModalPage from './pages/ModalPage';
+import TablePage from './pages/TablePage';
 
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route path="/modal">
           <ModalPage />
+        </Route>
+        <Route path="/table">
+          <TablePage />
         </Route>
       </div>
     </div>
