@@ -3,6 +3,8 @@ import AccordionPage from './pages/AccordionPage';
 import DropdownPage from './pages/DropdownPage'
 import Route from './components/Route'
 import ButtonPage from './pages/ButtonPage';
+import Modal from './components/Modal';
+import ModalPage from './pages/ModalPage';
 
 
 function App() {
@@ -18,6 +20,9 @@ function App() {
         </Route>
         <Route path="/buttons">
           <ButtonPage />
+        </Route>
+        <Route path="/modal">
+          <ModalPage />
         </Route>
       </div>
     </div>
