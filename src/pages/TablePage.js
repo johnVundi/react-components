@@ -20,7 +20,8 @@ function TablePage() {
         },
         {
             label: 'score ',
-            render: (fruit) => fruit.score
+            render: (fruit) => fruit.score,
+            header: ()=><th  className='bg-red-500'>score</th>
         },
     ];
      const keyFn = (fruit) =>{
