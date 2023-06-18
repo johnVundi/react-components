@@ -3,7 +3,6 @@ import AccordionPage from './pages/AccordionPage';
 import DropdownPage from './pages/DropdownPage'
 import Route from './components/Route'
 import ButtonPage from './pages/ButtonPage';
-import Modal from './components/Modal';
 import ModalPage from './pages/ModalPage';
 import TablePage from './pages/TablePage';
 import CounterPage from './pages/CounterPage';
